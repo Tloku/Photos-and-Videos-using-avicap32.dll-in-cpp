@@ -1,0 +1,4 @@
+﻿  kamera.cpp
+D:\Studia\Semestr 5\Urządzenia peryferyjne\kamera\kamera\kamera.cpp(19,2): warning C4091: "typedef ": zignorowano na lewo od "CameraDrivers" podczas gdy brak deklaracji zmiennej
+D:\Studia\Semestr 5\Urządzenia peryferyjne\kamera\kamera\kamera.cpp(147): warning C4717: "menu": cykliczne we wszystkich ścieżkach przepływu, funkcja spowoduje przepełnienie stosu w trakcie wykonywania
+  kamera.vcxproj -> D:\Studia\Semestr 5\Urządzenia peryferyjne\kamera\Debug\kamera.exe
