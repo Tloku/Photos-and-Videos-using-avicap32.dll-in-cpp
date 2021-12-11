@@ -44,7 +44,7 @@ int main()
 
 void displayCameraDrivers()
 {
-	//wypisywanie listy sterowników do obs³ugi kamer w komputerze
+	//wypisywanie listy sterownikÃ³w do obsÂ³ugi kamer w komputerze
 	CameraDrivers listOfCameraDrivers[10];
 	int number = 0;
 	for (auto i = 0; i < 10; i++) {
@@ -65,9 +65,9 @@ void displayCameraDrivers()
 		if (listOfCameraDrivers[i].driverIndex > 10 || listOfCameraDrivers[i].driverIndex < 0)
 			continue;
 		std::cout << "=======================" << std::endl;
-		std::cout << "Nazwa sterownika kamery: " << listOfCameraDrivers[i].driverName << std::endl;
-		std::cout << "Wersja sterownika kamery: " << listOfCameraDrivers[i].driverVersion << std::endl;
-		std::cout << "Indeks sterownika kamery: " << listOfCameraDrivers[i].driverIndex << std::endl;
+		std::cout << "Camera driver name: " << listOfCameraDrivers[i].driverName << std::endl;
+		std::cout << "Driver version : " << listOfCameraDrivers[i].driverVersion << std::endl;
+		std::cout << "Index of camera driver: " << listOfCameraDrivers[i].driverIndex << std::endl;
 		std::cout << "=======================" << std::endl;
 	}
 }
